@@ -1,6 +1,6 @@
-diff -rupN aircrack-ng-1.2-rc2/src/airodump-ng.c aircrack-ng-1.2-rc2-new/src/airodump-ng.c
---- aircrack-ng-1.2-rc2/src/airodump-ng.c	2015-04-09 06:47:28.000000000 +0200
-+++ aircrack-ng-1.2-rc2-new/src/airodump-ng.c	2015-11-17 08:16:40.436051920 +0100
+diff -rupN aircrack-ng-1.6/src/airodump-ng.c aircrack-ng-1.6-new/src/airodump-ng.c
+--- aircrack-ng-1.6/src/airodump-ng.c	2015-04-09 06:47:28.000000000 +0200
++++ aircrack-ng-1.6-new/src/airodump-ng.c	2015-11-17 08:16:40.436051920 +0100
 @@ -652,7 +652,7 @@ char usage[] =
  "      --wps                 : Display WPS information (if any)\n"
  "      --output-format\n"
@@ -369,9 +369,9 @@ diff -rupN aircrack-ng-1.2-rc2/src/airodump-ng.c aircrack-ng-1.2-rc2-new/src/air
          if ( G.output_format_kismet_netxml || G.f_kis_xml != NULL )
          {
  			fclose( G.f_kis_xml );
-diff -rupN aircrack-ng-1.2-rc2/src/airodump-ng.h aircrack-ng-1.2-rc2-new/src/airodump-ng.h
---- aircrack-ng-1.2-rc2/src/airodump-ng.h	2015-03-30 15:54:39.000000000 +0200
-+++ aircrack-ng-1.2-rc2-new/src/airodump-ng.h	2015-11-17 08:16:43.180051990 +0100
+diff -rupN aircrack-ng-1.6/src/airodump-ng.h aircrack-ng-1.6-new/src/airodump-ng.h
+--- aircrack-ng-1.6/src/airodump-ng.h	2015-03-30 15:54:39.000000000 +0200
++++ aircrack-ng-1.6-new/src/airodump-ng.h	2015-11-17 08:16:43.180051990 +0100
 @@ -41,7 +41,7 @@
  #define DEFAULT_CWIDTH  20 /* 20 MHz channels by default */
  
